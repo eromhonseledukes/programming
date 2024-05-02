@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/keith-misner-h0Vxgz5tyXA-unsplash.jpg")
+}
+
+Nav {
+    background-color: rgb(151, 126, 175);
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+}
+
+.logo h2{
+    color: rgb(176, 17, 99);
+    font-family: 'Times New Roman' Times, serif;
+    font-style: obliged;
+    font-weight: 900;
+    cursor: pointer
+}
+
+.logo h2:hover {
+    color: rgb(91,91, 174)
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none
+}
+
+ul a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600
+}
+
+ul a:hover{
+    color: red
+}
+
+.content{
+    text-align: center;
+    padding: 100px
+}
+
+.content h2{
+    color: rgb(59, 98, 98);
+    font-weight: 900;
+    font-size: 32px;
+    font-style: oblique
+}
+
+.content p{
+    color: white
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: brown;
+    border-radius: 5px
+}
+
+.btn a:hover{
+    background-color: beige;
+    color: brown
+}
+

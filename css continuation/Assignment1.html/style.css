@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("/football-1019776_1280.webp");
+    background-size: cover
+
+}
+
+nav {
+    background-color: rgb(151, 126, 175);
+    display: Flex;
+    justify-content: space-around; 
+     justify-content: space-evenly; 
+
+}
+
+.logo h2 {
+    color: rgb(176, 17, 99);
+    font-family: 'Times New Roman' Times, Serif;
+    font-style: obliged;
+    font-weight: 1000;
+    cursor: pointer
+
+}
+
+.logo h2:hover {
+    color: rgb(91, 91, 174)
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+
+ul a{
+    margin-left: 7px;
+}
+ul a:hover {
+    color: red;
+
+}
+
+.content {
+    text-align: center;
+    padding: 100px;
+}
+
+.content h2 {
+    color: rgb(59, 98,98);
+    font-weight: 900;
+    font-size: 60px;
+    font-style: normal;
+
+}
+
+.content P {
+    color: white
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: brown;
+    border-radius: 5px;
+
+}
+
+.btn a:hover {
+    background-color: beige;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+

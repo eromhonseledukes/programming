@@ -1,0 +1,71 @@
+body {
+    background-image:url("/football-1019776_1280.webp");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+.border {
+    border: dotted red 4px;
+}
+
+.radius {
+    border: 2px dashed yellow;
+    border-radius: 5px;
+
+ }
+
+ .Dotted {
+    border: dotted yellow 4px;
+    border-radius: 4px;
+ }
+
+ .dashed {
+    border:dashed green 3px;
+    border-radius: 4px;
+ }
+
+ .grooved {
+    border: groove pink 4px;
+    border-radius: 3px;
+ }
+
+ .solid {
+    border: solid red 3px;
+    border-radius: 3px;
+ }
+
+ .Double {
+    border: double blue 4px;
+    border-Radius: 4px;
+ }
+
+ .Rider (
+    .border: Rider yellow 3px;
+    border-radius: 4px;
+ )
+ .margin {
+   margin-top: 10px;
+   margin-bottom: 100px;
+   margin-left: 10px;
+   margin-right: 10px
+ }
+ .shorthand-margin {
+   margin: 10px 10px 10px 10px;
+ }
+.one {
+   margin: 0 0 50px 0;
+}
+
+.two {
+   margin: 20px 0 0 0;
+}
+.padding {
+   border: 1px solid black;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+
+}
